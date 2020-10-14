@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./index.css">
+    <script defer type="module" src="./index.js"></script>
+    <title>Bin2Dec</title>
+</head>
+<body>
+    <div class="modal">
+        <form action="">
+            <label for="binField">Digite o número binário:</label>
+            <input type="number" value="0" pattern="(?![2-9])[0-1]+" name="binField" id="binField">
+        </form>
+
+        <h1>Resultado em decimal</h1>
+        <p id="decimal">0</p>
+    </div>
+</body>
+</html>
